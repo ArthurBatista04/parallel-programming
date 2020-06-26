@@ -80,8 +80,8 @@ void check_help(char *arg)
     fprintf(stderr, "-d (matrix distribution):\n0-lines\n1-columns\n");
     fprintf(stderr, "-t (number of threads)\n");
     fprintf(stderr, "-m (matrix dimension)\n");
-    fprintf(stderr, "-v (print matrix information)");
-    fprintf(stderr, "-h (help)");
+    fprintf(stderr, "-v (print matrix information)\n");
+    fprintf(stderr, "-h (help)\n");
     exit(EXIT_FAILURE);
 }
 
