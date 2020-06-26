@@ -36,7 +36,7 @@ typedef struct thread_info
 } thread_info;
 
 void *mm(void *thread_in);
-int check_input(params *input);
+int is_valid_input(params *input);
 void check_help(char *arg);
 params *init_params(char **args, int size);
 void check_erro(int code);
